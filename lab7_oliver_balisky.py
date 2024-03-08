@@ -109,7 +109,7 @@ def gem_counting(stones, gems):
     return num_gems
 
 
-assert gem_counting("abDFMdm", "admMQq") == 4
+assert gem_counting("aaabbbDFMdm", "admMQq") == 6
 assert gem_counting("abDFMdm", "af") == 1
 assert gem_counting("bFfL", "cQqW") == 0
 
